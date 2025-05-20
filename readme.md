@@ -85,7 +85,7 @@ insurance-analysis/
 1. **Clone or Download the Project**
    ```bash
    # Option 1: If you have git
-   git clone <repository-url>
+   git clone https://github.com/kenilsavaliya29/Assignment---2/
    cd insurance-analysis
    
    # Option 2: Download and extract ZIP file
