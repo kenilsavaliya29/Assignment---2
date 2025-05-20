@@ -40,7 +40,7 @@ The dataset contains insurance claims filed during April 2025 with the following
 insurance-analysis/
 │
 ├── README.md                          # This file
-├── insurance_analysis.py              # Main analysis script
+├── rejection_reason.py.py              # Main analysis script
 ├── Insurance_auto_data.csv            # Sample dataset (you need to provide this)
 └── requirements.txt                   # Empty (no dependencies required)
 ```
@@ -65,13 +65,19 @@ insurance-analysis/
    # Should show Python 3.6 or higher
    ```
 
-3. **Prepare Your Data**
+3. **Create and Activate a Virtual Environment**
+   ```cmd
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+4. **Prepare Your Data**
    - Place your CSV file named `Insurance_auto_data.csv` in the project folder
    - Ensure it has the required columns mentioned above
 
-4. **Run the Analysis**
+5. **Run the Analysis**
    ```cmd
-   python insurance_analysis.py
+   python rejection_reason.py.py
    ```
 
 ### For macOS/Linux Users
@@ -92,13 +98,19 @@ insurance-analysis/
    # Should show Python 3.6 or higher
    ```
 
-3. **Prepare Your Data**
+3. **Create and Activate a Virtual Environment**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+4. **Prepare Your Data**
    - Place your CSV file named `Insurance_auto_data.csv` in the project folder
    - Ensure it has the required columns mentioned above
 
-4. **Run the Analysis**
+5. **Run the Analysis**
    ```bash
-   python3 insurance_analysis.py
+   python3 rejection_reason.py
    ```
 
 ## 📈 Expected Output
@@ -154,19 +166,19 @@ Based on the analysis, KOLKATA should be considered for closure due to:
 ```
 **macOS/Linux**:
 ```bash
-chmod +x insurance_analysis.py
+chmod +x rejection_reason.py.py
 ```
 
 #### Issue 3: Python not recognized
 **Windows**:
 - Add Python to PATH during installation, or
-- Use full path: `C:\Python39\python.exe insurance_analysis.py`
+- Use full path: `C:\Python39\python.exe rejection_reason.py.py`
 
 **macOS**:
 ```bash
 # Try different Python commands
-python insurance_analysis.py
-python3 insurance_analysis.py
+python rejection_reason.py.py
+python3 rejection_reason.py.py
 ```
 
 #### Issue 4: Empty or no output
